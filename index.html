@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <a href="https://github.com/KiworaID">Portfolio Saya</a>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#projects">Proyek</a></li>
+                <li><a href="#contact">Social Media</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Selamat Datang</h1>
+            <p>Saya seorang pengembang web yang berfokus pada pembuatan pengalaman digital yang luar biasa</p>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <div class="trust-badges">
+        <div class="marquee">
+            <div class="marquee-content">
+                <span><i class="fab fa-html5"></i> HTML5</span>
+                <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                <span><i class="fab fa-js"></i> JavaScript</span>
+                <span><i class="fab fa-laravel"></i> Laravel</span>
+                <span><i class="fab fa-node-js"></i> Node.js</span>
+                <span><i class="fab fa-python"></i> Python</span>
+                <span><i class="fab fa-git-alt"></i> Git</span>
+                <span><i class="fab fa-docker"></i> Docker</span>
+                <!-- Duplikat untuk efek scroll tak terbatas -->
+                <span><i class="fab fa-html5"></i> HTML5</span>
+                <span><i class="fab fa-css3-alt"></i> CSS3</span>
+                <span><i class="fab fa-js"></i> JavaScript</span>
+                <span><i class="fab fa-laravel"></i> Laravel</span>
+                <span><i class="fab fa-node-js"></i> Node.js</span>
+                <span><i class="fab fa-python"></i> Python</span>
+                <span><i class="fab fa-git-alt"></i> Git</span>
+                <span><i class="fab fa-docker"></i> Docker</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>Tentang Saya</h2>
+                <p>Saya adalah seorang pengembang web dan konten kreator Minecraft yang bersemangat dalam menciptakan pengalaman digital dan konten gaming yang menarik. Saya fokus pada pembuatan konten addon minecraft.</p>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">2+</div>
+                        <div class="stat-label">Tahun Pengalaman</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Addon Minecraft</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">90+</div>
+                        <div class="stat-label">Konten Minecraft Tiktok & Youtube</div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="img/pp.png" alt="Minecraft Content">
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>Keahlian Saya</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Membangun website responsif dengan teknologi modern</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Responsive Design</h3>
+                <p>Desain adaptif untuk semua ukuran layar</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>Backend Development</h3>
+                <p>API dan manajemen database yang efisien</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Proyek Terbaru</h2>
+        <div class="project-grid">
+            <a href="https://kiworaid.github.io/domain.github.io/" class="project-card">
+                <img src="img/image.png" alt="Project 1" class="project-image">
+                <div class="project-content">
+                    <h3>Domain Checker</h3>
+                    <p>Platform domain checker dengan fitur pengecekan domain</p>
+                </div>
+            </a>
+            <a href="https://kiworaid.github.io/Manifest-Generator/" class="project-card">
+                <img src="img/manifest.png" alt="Project 2" class="project-image">
+                <div class="project-content">
+                    <h3>Manifest Generator</h3>
+                    <p>Aplikasi manifest generator dengan fitur pembuatan manifest minecraft</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Social Media</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <a href="https://github.com/KiworaID" target="_blank" class="contact-link">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.youtube.com/@KiworaID" target="_blank" class="contact-link">
+                    <i class="fab fa-youtube"></i>
+                    <span>Youtube</span>
+                </a>
+                <a href="https://www.tiktok.com/@kiworaid" target="_blank" class="contact-link">
+                    <i class="fab fa-tiktok"></i>
+                    <span>Tiktok</span>
+                </a>
+                <a href="mailto:kenzhereal@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>kenzhereal@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
